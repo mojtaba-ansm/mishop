@@ -29,6 +29,8 @@
 }
 .infonav{
     background-color: #232f3e;
+    border-bottom: 2px solid #303e4f;
+
     
 }
 .searchbox{
@@ -68,6 +70,79 @@
     margin-left: 10px;
     font-size: 3em;
 }
+.nav{
+    background-color:#232f3e;
+
+}
+.listnav{
+    color: #bcbdc7;
+    position: relative;
+}
+.itemnavllist{
+    padding: 10px 20px;
+}
+.groupingkala::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c9";
+    margin-left: 5px;
+    vertical-align: middle;    
+
+}
+.groupingkala::after{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    bottom: -5px;
+    position: relative;
+    width: 1px;
+    background: #bcbdc7;
+    left: -15px;
+}
+.itemnavllist{
+    margin-left:20px;
+}
+.menukala{
+    width: 80%;
+    top: 100%;
+    right: 0;
+    position: absolute;
+    display: none;
+    
+}
+.itemmenulistkala{
+    flex-grow: 1;
+}
+.itemkalalist{
+    margin-right: 10px;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 0 10px 10px 0;
+}
+.divmenulistkala{
+    width: 25%;
+}
+.divmenulistkala{
+    background-color: #f7f7f7;
+}
+.listsubmenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 394px;
+    padding:18px;    
+}
+.catagorykala:hover .menukala{
+    display: flex;
+}
+.itemkalalist:hover{
+    background-color: #fff;
+    color: red;
+}
+
+
+
+
 
 /* main */
 /* footer */
