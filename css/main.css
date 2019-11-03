@@ -1,4 +1,5 @@
 /* header */
+
 .topinfo{
     background-color:#232f3e;
     border-radius: 10px 10px 0 0;
@@ -130,7 +131,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 394px;
-    padding:18px;    
+    padding:18px;   
+    background-color: #fff; 
 }
 .catagorykala:hover .menukala{
     display: flex;
@@ -139,10 +141,223 @@
     background-color: #fff;
     color: red;
 }
+/*main*/
+.sec1{
+    padding: 20px;  
+    height: 462px; 
+}
+.ads-l{
+    flex-grow: 1;
+    width: 75%;
+}
+.ads-r{
+    width: 25%;
+    margin-left: 30px;
+}
+/* dar inja ba nesbat darsad 24.85 ham mitavan tasavir ra moratab kard*/
+.imgads-r,.slider{
+    width: 100%;
+    height: 422px;
+}
+.sec2{
+    background-color: #f2f2f2;
+}
+.sh1{
+    padding: 20px;
+}
+.shoes{
+    border-radius: 50%;
+}
+.infoshoes{
+    padding-right: 20px;
+}
+.infoshoes>a{
+    color: #F4A137;
+}
+.infoshoes>h3{
+    margin: 0;
+}
+.infoshoes>p{
+    margin-top: 0;
+}
+.infoshoes{
+    align-self: center;
+}
+.sec3{
+    padding: 10px;
+    
+}
+.thmubnail{
+    border: 1px solid #ddd;
+    margin: 20px;
+    flex-grow: 2;
+    width: 40%;
+    padding: 15px;
+}
+.thmubnail>h3{
+    margin: 0;
+}
+.thmubnail>span{
+    color: red;
+}
+.thmubnail>a{
+    border: 1px solid #ddd;
+    padding: 7px 10px 3px 10px;
+}
+.cartbtn:hover{
+    color: #fff !important;
+    background-color: #F4A137;
+    border-color: #F4A137;
+}
+.thmubnail>a:hover{
+    color: #F4A137;
+    border-color: #F4A137;
+}
+.thmubimg{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.imgbanerthumb{
+    width: 100%;
+}
+.itemcart{
+    flex-grow: 3;
+    width: 60%;
+}
+.itemcartlistitem{
+    width: 33%;
+}
+.itemcartlist{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    
+}
+.itemcartlistitem>span{
+    color: red;
+}
+.bagitem{
+    width: 100%;
+}
+.ts-product{
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.imgbanerthumb{
+    width: 100%;
+}
+.banner-main>img{
+    width: 100%;
+}
+.banner-main{
+    padding: 20px;
+}
+.sec5>h3{
+    margin-right: 20px;
+    border-bottom: 3px solid #F4A137;
+    display: inline;
+}
+.sec6>h3{
+    margin-right: 20px;
+    border-bottom: 3px solid #F4A137;
+    display: inline;
+}
+.conllectionlist{
+    padding: 13px;
+}
+.collectionitem{
+    width: 16.5%;
+    flex-grow: 1;
+    padding: 7px;
+}
+.collectiondetail{
+    position: relative;
+    background-color: #F5F5F5;
+    border: 1px solid transparent;
+
+}
+.collectionlink{
+    border-bottom: 3px solid #F4A137;
+    color:#666666;
+    display: block;
+}
+.collectionlink>img{
+    width: 100%;
+}
+.collectionlink>span{
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+.collectiondetail:hover{
+    border: 1px solid #F4A137;
+    background-color: #fff;
+
+}
+.sale-hotlist{
+    flex-wrap: wrap;
+    
+}
+.sale-hotitem{
+    width: 33%;
+    flex-grow: 1;
+}
+.detailsale-hotitem{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 20px;
+}
+.detailsale-hotitem h3{
+    margin-bottom: 0;
+
+}
+.sec8>h3{
+    padding-top: 10px;
+    margin-right: 20px;
+    border-bottom: 3px solid #F4A137;
+    display: inline;
+}
+.hot-catagoryitem{
+    width: 25%;
+}
+.hot-catagory{
+    padding: 10px;
+}
+.hot-catagorydetail{
+    margin: 10px;
+}
+.infohot-catagory{
+    list-style: square;
+    padding: 10px;
+    list-style-position: inside;
+}
+.sec8 h4{
+    margin: 10px 0 0 0;
+}
+.imghot-catagory{
+    position: relative;
+}
+.imghot-catagory>a{
+    position: absolute;
+    bottom: 27px;
+    left: 27px;
+
+}
+.imghot-catagory>img{
+    width: 100%;
+}
+.sec8{
+    background-color: #F5F5F5;
+}
 
 
 
 
 
-/* main */
+
+
 /* footer */

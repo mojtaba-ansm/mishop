@@ -1,0 +1,19 @@
+.btn{
+    border: 1px solid #ddd;
+    padding: 7px 10px 3px 10px;
+
+}
+.cartbtn:hover{
+    color: #fff !important;
+    background-color: #F4A137;
+    border-color: #F4A137;
+}
+.btn:hover{
+    color: #F4A137;
+    border-color: #F4A137;
+}
+.btn-style{
+    color: #fff;
+    background-color: #F4A137;
+    padding: 2px 20px;
+}

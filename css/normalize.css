@@ -7,18 +7,22 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
 body {
     box-sizing: border-box;
     margin: 0;
     font-family: 'IRANSans';
     padding: 0;
+    background-color: red;
     
 }
+
 
 .wrapperclass {
     width: 90%;
     margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 silver;
+
   
 }
 
@@ -27,6 +31,7 @@ ul {
     margin: 0;
     list-style: none;
 }
+
 
 a {
     text-decoration: none;
